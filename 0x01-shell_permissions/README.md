@@ -1,0 +1,1 @@
+commands about shell prmissions
