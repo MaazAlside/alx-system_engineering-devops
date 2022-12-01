@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod ug+x /. -R
+chmod +X (as opposed to +x )
