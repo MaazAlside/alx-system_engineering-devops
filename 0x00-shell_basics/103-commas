@@ -1,2 +1,2 @@
 #!/bis/bash
-ls -amp | sort -d
+ls -mpa
