@@ -1,0 +1,18 @@
+total 64
+drwxr-xr-x 3 maaz maaz 4096 Dec  6 10:03 .
+drwxr-xr-x 6 maaz maaz 4096 Dec  6 09:28 ..
+-rwxr--r-- 1 maaz maaz   31 Dec  6 08:30 0-hello_world
+-rwxr--r-- 1 maaz maaz   29 Dec  5 21:29 1-confused_smiley
+-rwxr--r-- 1 maaz maaz   58 Dec  6 09:46 10-no_more_js
+-rwxr--r-- 1 maaz maaz   44 Dec  6 10:03 11-directories
+-rwxr--r-- 1 maaz maaz   43 Dec  5 23:47 15-countthatword
+-rwxr--r-- 1 maaz maaz   28 Dec  5 21:38 2-hellofile
+-rwxr--r-- 1 maaz maaz   39 Dec  5 21:43 3-twofiles
+-rwxr--r-- 1 maaz maaz   29 Dec  5 21:47 4-lastlines
+-rwxr--r-- 1 maaz maaz   29 Dec  5 21:49 5-firstlines
+-rwxr--r-- 1 maaz maaz   36 Dec  5 23:01 6-third_line
+-rw-r--r-- 1 maaz maaz   73 Dec  5 23:21 7-file
+-rwxr--r-- 1 maaz maaz   36 Dec  6 09:15 8-cwd_state
+-rwxr--r-- 1 maaz maaz   35 Dec  6 09:29 9-duplicate_last_line
+drwxr-xr-x 2 maaz maaz 4096 Dec  6 09:43 lk
+-rw-r--r-- 1 maaz maaz    0 Dec  6 10:03 t.txt
