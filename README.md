@@ -1,1 +1,1 @@
-about basic shall commands
+this is project about Shell, init files, variables and expansions
