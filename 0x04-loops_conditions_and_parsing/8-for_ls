@@ -1,1 +1,7 @@
 #!/usr/bin/env bash
+# Disply content of the current directory
+
+for file in *; do
+	filename="${file#*-}"
+	echo "$filename"
+done
