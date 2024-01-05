@@ -1,1 +1,10 @@
 #!/usr/bin/env bash
+# Script that displays all active IPv4 IPs on the machine it’s executed on.
+
+ip_command="ip"
+
+if ! command -v $ip_command &> /dev/null; then
+    ip_command="ifconfig"
+fi
+ip_command=$(ip -4 addr show | awk '/inet / {split($2, a, "/"); print a[1]}')
+echo "$ip"
