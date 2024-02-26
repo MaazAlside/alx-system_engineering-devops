@@ -1,4 +1,4 @@
-# changes to the default ssh config file
+#!/usr/bin/env bash
 
 # changes to the default ssh config file.
 file_line { 'Declare identity file':
