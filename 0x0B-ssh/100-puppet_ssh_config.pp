@@ -1,4 +1,4 @@
-#!/usr/bin/env puppet
+
 # changes to the default ssh client config file.
 file_line { 'Declare identity file':
   ensure => 'present',
