@@ -1,5 +1,5 @@
 Host web-01
-	Hostname 54.237.117.29
+	Hostname 54.210.58.182
 	User ubuntu
 	PasswordAuthentication no
 	IdentityFile ~/.ssh/school
