@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # changes to the default ssh config file.
 file_line { 'Declare identity file':
   path   => '/etc/ssh/ssh_config',
