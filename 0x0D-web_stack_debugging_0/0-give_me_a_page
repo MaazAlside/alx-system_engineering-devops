@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# web stack debugging
-docker exec -it 47ca3994a491 service apache2 start
+# Start Apache service in a Docker container
 
+docker exec -it 47ca3994a491 service apache2 start
