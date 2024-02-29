@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+docker exec -it 47ca3994a491 service apache2 start
