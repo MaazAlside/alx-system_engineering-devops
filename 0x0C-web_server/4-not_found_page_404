@@ -1,1 +1,23 @@
 #!/usr/bin/env bash
+#!/usr/bin/env bash
+# Install nginx and configure redirection
+
+apt-get -y update
+apt-get install -y nginx
+
+# Create an HTML file with the content "Hello World!"
+echo 'Hello World!' | sudo tee /var/www/html/index.nginx-debian.html
+
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html > /dev/null
+
+string_for_replacement="\\\n\tlocation = /redirect_me {\n\t\t return 301 https://www.hithub.com/maazalside/;\n\t}\n"
+
+
+# Use sed to replace the configuration in the Nginx default site
+sudo sed -i "15i\\$string_for_replacement" /etc/nginx/sites-available/default
+
+error_page="\\\n\terror_page 404 /404.html;\n\n\tlocation = /404.html {\n\t\tinternal;\n\t}\n"
+
+sudo sed -i "15i$error_page" /etc/nginx/sites-available/default
+# Restart Nginx to apply changes
+sudo service nginx restart
